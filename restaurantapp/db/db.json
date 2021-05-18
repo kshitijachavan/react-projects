@@ -1,0 +1,5 @@
+{
+    "posts": [
+      { "id": 1, "name": "resto 1", "address":"r1", "rating": 1.1}
+    ]
+  }

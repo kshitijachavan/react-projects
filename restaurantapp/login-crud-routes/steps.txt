@@ -1,0 +1,31 @@
+login and crud with routes - restaurant app
+bootstrap used
+
+1.install json-server
+https://github.com/typicode/json-server
+npm install -g json-server
+create new folder "db" in main folder and create db.json
+add dummy post data in db.json
+then go to db folder and run
+npx json-server --watch db.json (windows) / json-server --watch db.json(linux)
+
+2.Routing
+install Routing package: https://reactrouter.com/web/guides/quick-start, cmd: npm install react-router-dom
+make components
+    RestuarantList
+    RestuarantDetail
+    RestuarantSearch
+    RestuarantCreate
+    RestuarantUpdate
+    Home
+    login
+make link for all components
+make routes for all components
+
+3. listing
+make a api - json fake api
+test it on postman
+fetch and show api data
+
+
+
