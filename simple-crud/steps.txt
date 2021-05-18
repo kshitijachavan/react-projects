@@ -1,0 +1,14 @@
+simple transaction  Crud operation and localstorage as db
+without redux and route
+1.A/c transaction 
+2.components:
+TransactionList and TransactionForm
+3.localstorage as DB
+4.store(TransactionList)
+list:array to store all transaction fetch from local storage
+5.currentIndex for edit 
+summary: 
+create from gives onchange eventand submit 
+returnStateObject: gives original state
+onAddOrEdit function depending upon current currentIndex
+delete event
