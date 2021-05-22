@@ -1,5 +1,22 @@
 {
-    "posts": [
-      { "id": 1, "name": "resto 1", "address":"r1", "rating": 1.1}
-    ]
-  }
+  "login": [
+    {
+      "name": "kshiti",
+      "password": "123"
+    }
+  ],
+  "restaurant": [
+    {
+      "name": "resto 1",
+      "address": "r11",
+      "rating": "1.17",
+      "id": 1
+    },
+    {
+      "name": "pizza",
+      "address": "p1",
+      "rating": "3.4",
+      "id": 3
+    }
+  ]
+}

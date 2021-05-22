@@ -23,9 +23,72 @@ make link for all components
 make routes for all components
 
 3. listing
-make a api - json fake api
+make a api - json fake api - http://localhost:3000/posts
 test it on postman
 fetch and show api data
+
+4. add bootstrap
+install bootstrap and react-bootstrap: npm i bootstrap react-bootstrap
+https://react-bootstrap.github.io/getting-started/introduction
+add import 'bootstrap/dist/css/bootstrap.min.css'; in index or app.js
+add navbar
+add table listings
+
+5. add restaurant
+test api with postman
+make input field
+collect data from fields
+fire post api
+test new entries
+
+6. update restaurant
+test api with postman
+edit link on listing
+pass id on that url
+get api to fetch existing data and show that in field
+put api for update data
+
+7. add icons
+install package for icons-npm i @fortawesome/react-fontawesome
+https://www.npmjs.com/package/@fortawesome/react-fontawesome
+npm i @fortawesome/fontawesome-svg-core
+npm i @fortawesome/free-solid-svg-icons
+import icons
+import {faCoffee,faEdit, faTrash} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+use icons - check listing page code
+
+8. delete restaurant
+test api on postman
+write code
+testing
+
+9. Search restaurant
+test api on postman
+create searchbox on search page
+call search api
+show search result in list below searchbox
+
+10. styling search page
+style result according to listing table
+add edit and delete functionality like listing 
+style searchbox and page
+
+11. login with mock api without protected routes
+make router for login page
+make login from
+make mock api for login with json-server
+hit login api 
+redirect on list page after login
+
+12. logout and protected routes
+put navbar in different file
+add localstroge on login
+add logout button
+make protected routes file
+apply protected routes
+test
+
 
 
 
